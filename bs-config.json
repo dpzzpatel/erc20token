@@ -1,0 +1,7 @@
+{
+	"server":{
+		"port": "process.env.PORT",
+    	"files": ["./**/*.{html,htm,css,js}"],
+		"baseDir":["./src","./build/contracts"]
+	}
+}
